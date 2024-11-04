@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #241555;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+.container{
+    color: white;
+    padding: 4rem;
+    border: 2px solid white;
+}
+.container h1{
+    font-weight: 900;
+}
+.container input{
+    width: 100%;
+    margin: 2rem 0;
+    padding: .5rem .8rem;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    outline: none;
+    display: block;
+    text-align: center;
+}
+.passShowBox{
+    position: relative;
+}
+.passShowBox i{
+    position: absolute;
+    top: 25%;
+    right: 4%;
+    font-size: 1.3rem;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+.passShowBox > span {
+    position: absolute;
+    right: 0;
+    bottom: -60%;
+    display: none;
+}
+.button{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.container .button button{
+    width: 60%;
+    margin: 1rem auto;
+    padding: .5rem .8rem;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    border: 2px solid rgb(204, 50, 104);
+    border-radius: 5px;
+    transition: .3s;
+    cursor: pointer;
+}
+.button button:hover{
+    background-color: rgb(49, 23, 23);
+    transform: scale(1.1);
+}
